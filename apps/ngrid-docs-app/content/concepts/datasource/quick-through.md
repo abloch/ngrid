@@ -10,7 +10,7 @@ The source for data items that show up as rows in the table.
 
 - n**Grid** only works with 1 datasource: `PblDataSource` (class)
 - The data source is a container of data items.
-- Internally, `PblDataSource` always use's an array.
+- Internally, `PblDataSource` always uses an array.
 - `Array`, `Promise<Array>` and `Observable<Array>` are also supported, internally transformed into a `PblDataSource`.
 - n**Grid** provides a factory function to create instances of `PblDataSource` which you will probably use 99.99% of the times (manual creation is possible).
 
